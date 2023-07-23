@@ -1,0 +1,89 @@
+.projects-containe {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.projects_title-container {
+    font-size: 1.25rem;
+    text-align: center;
+}
+.my_projects-container {
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+.my_projects-container a{
+    color: black;
+    text-decoration: none;
+}
+.my_projects-wrapper {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 2.55rem;
+}
+.my_project {
+    width: 250px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    background-color: white;
+    border: 2px solid #0e0e0e;
+    border-radius: 1rem;
+    position: relative;
+    overflow: hidden;
+}
+.my_project p{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: center;
+}
+.my_project_image-wrapper {
+    width: 250px;
+    height: 150px;
+}
+.my_project_image-wrapper img {
+    width: 250px; 
+}
+.my_project_title-wrapper {
+    width: 250px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+}
+.my_project_title-wrapper p {
+    font-size: 1.1rem;
+    margin: 0% 10%;
+}
+.my_project_description-wrapper {
+    height: 140px;
+    display: grid;
+    place-items: center;
+}
+.my_project_description-wrapper p {
+    font-size: 1rem;
+    margin: 0% 5%;
+}
+.my_project_stack {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 5px;
+    position: absolute;
+    bottom: 0%;
+}
+.my_project_stack img{
+    width: 48px;
+}
+.my_project:hover {
+    scale: 105%;
+}

@@ -1,0 +1,135 @@
+.home-container {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.title-container {
+    display: grid;
+    place-items: center;
+}
+.title {
+    font-size: 2rem;
+    margin: 0%;
+}
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.profile_image-container {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile_image-wrapper {
+    width: 50%;
+    border: 2px solid black;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+.profile_image {
+    width: 100%;
+    object-fit: contain;
+}
+.profile_description-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile_description-wrapper {
+    width: 75%;
+}
+.profile_description {
+    text-align: center;
+    font-size: 1rem;
+}
+.tech_stack-container{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    gap: 1rem;
+}
+.tech_stack_title-container{
+    width: 100%;
+    display: grid;
+    place-items: center;
+    justify-content: right;
+}
+.tech_stack_title-wrapper{
+    text-align: center;
+}
+.tech_stack_title{
+    font-size: 1.15rem;
+    font-weight: bold;
+    font-style: oblique;
+}
+.tech_stacks-container{
+    width: 100%;
+    display: grid;
+    place-items: center;
+    justify-content: left;
+}
+.tech_stacks-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+.tech_stack-wrapper{
+    width: 48px;
+    height: 48px;
+    display: grid;
+    place-items: center;
+}
+.tech_stack{
+    width: 48px;
+}
+@media screen and (min-width: 750px) {
+    .profile-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+    .profile_image-container {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+    }
+    .profile_image-wrapper {
+        width: 45%;
+        border: 2px solid black;
+        border-radius: 1rem;
+        overflow: hidden;
+    }
+    .profile_image {
+        width: 100%;
+        object-fit: contain;
+    }
+    .profile_description-container {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+    }
+    .profile_description-wrapper {
+        width: 50%;
+    }
+    .profile_description {
+        text-align: center;
+        font-size: 1rem;
+    }
+    .tech_stack-container{
+        width: 50%;
+    }
+}

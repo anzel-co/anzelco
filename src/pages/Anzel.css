@@ -1,0 +1,56 @@
+.logo {
+    width: 48px;
+    position: absolute;
+    top: 12.5%;
+    left: 5%;
+    animation: logo-spin infinite 60s linear;
+}
+nav a:hover img {
+    scale: 110%;
+}
+@keyframes logo-spin {
+    0% {
+        
+        transform: rotate(0deg);
+    }
+    100% {
+        
+        transform: rotate(360deg);
+    }
+}
+.navlinks {
+    width: 13rem;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    padding: 0%;
+    position: absolute;
+    right: 5%;
+}
+.navlink a {
+    width: 6rem;
+    height: 3rem;
+    display: grid;
+    place-items: center;
+    text-decoration: none;
+    color: black;
+}
+.navlink a:hover {
+    scale: 110%;
+}
+nav .active {
+    background: #0e0e0e;
+    color: white;
+    border-radius: 2rem;
+}
+@media screen and (max-width: 280px) {
+    .navlinks {
+        width: 12.5rem;
+        list-style: none;
+        display: flex;
+        gap: 0.5rem;
+        padding: 0%;
+        position: absolute;
+        right: 2.5%;
+    }
+} 
